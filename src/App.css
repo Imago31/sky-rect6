@@ -27,13 +27,24 @@ h4 {
   margin: 10px;
 }
 
-.addButton {
+/* .addButton {
   float: left;
 }
 
 .removeButton {
   float: right;
+} */
+.removeBookButton{
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #bb3d50;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  margin-left: 10px;
 }
+
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 .cardsView {
@@ -123,24 +134,21 @@ h4 {
   appearance: none;
   border: 0;
   border-radius: 5px;
-  background: #bb3d50;
+  background: orange;
   color: #fff;
   padding: 8px 16px;
   font-size: 16px;
 }
 
-.removeButton:hover {
-  color: white;
-  background-color: rgb(239, 110, 110);
-}
+
 
 .shopItem-container.list > .addButton {
   margin-left: 60px;
 }
 
-.addButton:hover {
-  color: white;
-  background-color: rgb(117, 213, 118);
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .shopItem-price {
